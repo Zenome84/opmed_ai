@@ -6,9 +6,9 @@ All code was run on a Windows 10 machine, in a Jupyter notebook running Python 3
 # Part 1
 The solution to part 1 can be found in the Jupyter notebook: [predict_surgery_time.ipynb](https://github.com/Zenome84/opmed_ai/blob/main/predict_surgery_time.ipynb)
 
-The solution does some exploratory analysis, finding the discriminatory features. This hypothesis is also tested by using a non-parametric model - Decision Tree - to fit
-the data on the discriminatory features, and subsequently on all features. We see that the choice was was correct and offer possible non-parametric and parametric approach
-to deal with overfitting. We employ a basic non-parametric approach and observe the results.
+The solution does some exploratory analysis, finding the discriminatory features. This hypothesis is tested by using a non-parametric model - Decision Tree - to fit
+the data on the discriminatory features, and subsequently on all features. We see that the choice was correct and offer possible non-parametric and parametric approach
+to deal with overfitting. We employ a very basic non-parametric approach and observe the results.
 
 # Part 2
 The solution to part 2 can be found in the Jupyter notebook: [schedule_surgeries.ipynb](https://github.com/Zenome84/opmed_ai/blob/main/schedule_surgeries.ipynb)
