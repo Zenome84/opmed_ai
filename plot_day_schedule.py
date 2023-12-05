@@ -3,7 +3,7 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 
 
-def plot_day_schedule(schedule):
+def plot_day_schedule(schedule, jupyter: bool = False):
     fig, ax = plt.subplots(nrows=1, ncols=1)
     fig.set_size_inches(w=2 * 9.5, h=2 * 5)
     fig.tight_layout(pad=1.7)
@@ -36,4 +36,5 @@ def plot_day_schedule(schedule):
 
     ax.title.set_text(f'Total {len(set(schedule["anesthetist_id"]))} anesthetists')
 
-    fig.show()
+    if not jupyter:
+        fig.show()
