@@ -15,4 +15,4 @@ The solution to part 2 can be found in the Jupyter notebook: [schedule_surgeries
 
 The solution notes that the number of permutations to explore is too large, and instead find ways to reduce the problem so that it can be solved with less complexity.
 The notebook explores upper-bound and lower-bound approximations for the cost, explaining the reasons behind these and then proceeds to implement an approach to arrive
-at a best, although not proveable, solution. The solution found is, however, very close to the lower-bound.
+at a best, although not proveably so, solution. The solution found is, however, very close to the lower-bound.
